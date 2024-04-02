@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.Header-component {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(248, 246, 243);
+}
+.navigation > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 24px;
+}
+.navigation > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.res-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
